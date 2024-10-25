@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Image Slider</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="sea-dawn-nature-1188083.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="daylight-environment-forest-459225.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="Best-Nature-Full-HD-Images-For-Desktop.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="clouds-cloudy-countryside-236047.jpg" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="clouds-conifer-daylight-371589.jpg" alt="Image 5">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        <div class="pagination">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
